@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:title="Iniciar Sesión  😎" />
+        <item
+            android:id="@+id/nav_register"
+            android:title="Registrarse  🫶🏻" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Buscar  🔍" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:title="Favoritos  ⭐" />
+        <item
+            android:id="@+id/nav_history"
+            android:title="Historial  📋" />
+        <item
+            android:id="@+id/nav_recommendations"
+            android:title="Recomendaciones  💡" />
+        <item
+            android:id="@+id/nav_crud"
+            android:title="Operaciones CRUD  🤖" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Perfil  👤" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Cerrar Sesión  🔒" />
+    </group>
+</menu>
