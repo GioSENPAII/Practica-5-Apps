@@ -68,12 +68,42 @@
             android:label="Perfil"
             android:theme="@style/Theme.PracticaCRUD" />
 
-        <!-- Añadir la nueva actividad al archivo app/src/main/AndroidManifest.xml -->
+        <!-- Actividad para crear/editar usuarios -->
         <activity
             android:name=".CreateEditUserActivity"
             android:exported="false"
             android:label="Crear/Editar Usuario"
             android:theme="@style/Theme.PracticaCRUD" />
+
+        <!-- NUEVAS ACTIVIDADES PARA LAS APIS -->
+        <!-- Actividad de búsqueda -->
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false"
+            android:label="Buscar"
+            android:theme="@style/Theme.PracticaCRUD" />
+
+        <!-- Actividad de favoritos -->
+        <activity
+            android:name=".FavoritesActivity"
+            android:exported="false"
+            android:label="Favoritos"
+            android:theme="@style/Theme.PracticaCRUD" />
+
+        <!-- Actividad de historial -->
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="Historial"
+            android:theme="@style/Theme.PracticaCRUD" />
+
+        <!-- Actividad de recomendaciones -->
+        <activity
+            android:name=".RecommendationsActivity"
+            android:exported="false"
+            android:label="Recomendaciones"
+            android:theme="@style/Theme.PracticaCRUD" />
+
     </application>
 
 </manifest>
